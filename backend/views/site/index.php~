@@ -1,0 +1,115 @@
+<?php
+/* @var $this yii\web\View */
+
+$this->title = 'PRL Purchase Section';
+?>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('#ydtb-toolbar').hide();
+    
+});
+</script>
+</head>
+
+   
+<div class="site-index">
+    <link href="ddmenu.css" rel="stylesheet" type="text/css"/>
+    <script src="ddmenu.js" type="text/javascript"></script>
+    <div class="jumbotron">
+        <h1>Welcome to PRL Purchase Section</h1>
+
+        <p class="lead"></p>
+	<br> <br>
+        
+<nav id="ddmenu">
+   <br><br><br><br>
+
+    <ul>
+        <li class="full-width">
+            <span class="top-heading">Consignment</span>
+			<i class="caret"></i>           
+            <div class="dropdown">
+                <div class="dd-inner">
+                    <div class="column">
+                        <h3></h3>
+                       
+                        <a href="http://localhost/PP/backend/web/index.php?r=departments">Consignment Generation</a>
+                       
+                        <a href="http://localhost/PP/backend/web/index.php?r=consignment/customduty">Custom Duty</a>
+                        <a href="http://localhost/PP/backend/web/index.php?r=consignment/warehousecharges">Warehouse Charges</a>
+                        <a href="http://localhost/PP/backend/web/index.php?r=consignment/consignmentdocuments">Consignment Related Documents</a>
+                        <a href="http://localhost/PP/backend/web/index.php?r=tb-signing">Add/Update Signatory</a>
+                        <a href="http://localhost/PP/backend/web/index.php?r=balmer-lawrie">Add/Update Freight Forwarder</a>
+                        <a href="http://localhost/PP/backend/web/index.php?r=tbpaymentmode">Add Update Payment Term</a>
+                      
+                    </div>
+                                        <div class="column mayHide">
+                        <br /><img src="http://upload.wikimedia.org/wikipedia/en/7/76/Physical_Research_Laboratory,_Ahmedabad_%28logo%29.jpg" />
+                    </div>
+                </div>
+                </div>
+        </li>
+        <li class="no-sub"><a class="top-heading" href=""></a></li>
+	  <li class="no-sub"><a class="top-heading" href=""></a></li>
+  <li class="no-sub"><a class="top-heading" href=""></a></li>
+  <li class="no-sub"><a class="top-heading" href=""></a></li>
+  <li class="no-sub"><a class="top-heading" href=""></a></li>
+           <li class="full-width">
+            <span class="top-heading">Purchase</span>
+			<i class="caret"></i>           
+            <div class="dropdown">
+                <div class="dd-inner">
+                    <div class="column">
+                        <h3></h3>
+                        <a href="http://localhost/PP/backend/web/index.php?r=consignment/poprint">PO Print</a>
+                        <a href="#">PO Annexure</a>
+                        <a href="#">LC/Payment Note</a>
+                        <a href="#">Approval for Advance Payment</a>
+                        <a href="#">Payment/LC Details</a>
+                        
+                    </div>
+                                        <div class="column mayHide">
+                        <br /><img src="http://upload.wikimedia.org/wikipedia/en/7/76/Physical_Research_Laboratory,_Ahmedabad_%28logo%29.jpg" />
+                    </div>
+                </div>
+            </div>
+        </li>
+    
+    </ul>
+
+</nav>
+    
+
+        
+    </div>
+
+    <div class="body-content">
+
+        <div class="row">
+            <div class="col-lg-4">
+                <h2>Features</h2>
+
+                <p>Here,After logging in you will be able to indent for required goods. Hope this helps !   </p>
+
+               
+            </div>
+            <div class="col-lg-4">
+                <center><img src="http://upload.wikimedia.org/wikipedia/en/7/76/Physical_Research_Laboratory,_Ahmedabad_%28logo%29.jpg" style="height: 100px;width:100px ">
+                	</center><br> <br> <br>
+              
+            </div>
+            <div class="col-lg-4">
+                <h2>Contact Us</h2> 
+
+                <p>If any problem persists please contact <br>4039 <br><a href="mailto:[rahul@prl.res.in]">rahul@prl.res.in</a></p>
+	
+
+               
+
+                   </div>
+        </div>
+
+    </div>
+</div>

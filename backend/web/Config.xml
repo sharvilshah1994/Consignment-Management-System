@@ -1,0 +1,10 @@
+<config>
+       <DBConfig>
+              <dbClassName>com.mysql.jdbc.Driver</dbClassName>
+              <dbUser>root</dbUser>
+              <dbPasswd>abc123</dbPasswd>
+              <dbURL>jdbc:mysql://localhost/consignment</dbURL>
+       </DBConfig>
+       
+</config>
+
